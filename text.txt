@@ -1,8 +1,8 @@
-That is something i don't know
-That is something i don't know
-That is something i don't know
-That is something i don't know
-That is something i don't know
-That is something i don't know
-That is something i don't know
-That is something i don't know
+git config --global user.name "huydaodang"
+git config --global user.email huongsmileaof@gmail.com
+git clone https://github.com/huydaodang/QLSV.git
+cd QLSV
+git add text.txt
+git status
+git commit -m "comment" text.txt
+git push -u origin master
