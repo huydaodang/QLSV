@@ -1,0 +1,10 @@
+Fork->
+Clone ->
+remote -v
+git remote add vitcoder link
+-------------------------------
+git checkout master	|git checkout -b task/abc
+git pull vitcoder master|coding
+			|git add -A
+			|git commit -m "Note "	
+			|git push origin   
