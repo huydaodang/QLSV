@@ -1,0 +1,18 @@
+void DtbMax(List &L)
+{
+	Bct_2 *p,*q,*max;
+	p=L.pHead;
+	while(p!=L.pTail)
+	{
+		max=p;
+		q=p->pNext;
+		while(q!=NULL)
+		{
+			if(q->Info.tp > max->Info.tp)
+			max=q;
+			q=q->pNext;
+		}	
+		printf("In ket qua\n");
+		p=p->pNext;
+	}
+}
